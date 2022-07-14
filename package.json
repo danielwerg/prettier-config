@@ -1,0 +1,26 @@
+{
+  "name": "@danielwerg/prettier-config",
+  "version": "0.0.0",
+  "description": "Shared Prettier config",
+  "author": "Daniel Werg",
+  "license": "MIT",
+  "repository": "danielwerg/prettier-config",
+  "main": ".prettierrc.js",
+  "devDependencies": {
+    "@types/prettier": "^2.6.3",
+    "eslint": "^8.19.0",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.5.1"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "keywords": [
+    "prettier",
+    "config",
+    "prettier-config",
+    "configuration"
+  ]
+}
