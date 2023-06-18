@@ -1,16 +1,22 @@
 /** @type {import('prettier').Options} */
 module.exports = {
   printWidth: 80,
-  endOfLine: 'lf',
   tabWidth: 2,
   useTabs: false,
   semi: true,
-  quoteProps: 'as-needed',
   singleQuote: true,
+  quoteProps: 'as-needed',
   jsxSingleQuote: true,
   trailingComma: 'none',
-  bracketSameLine: false,
   bracketSpacing: true,
+  bracketSameLine: false,
   arrowParens: 'avoid',
-  proseWrap: 'preserve'
+  proseWrap: 'preserve',
+  htmlWhitespaceSensitivity: 'css',
+  endOfLine: 'lf',
+  embeddedLanguageFormatting: 'auto',
+  singleAttributePerLine: false,
+  // NOTE: @prettier/plugin-xml
+  xmlSelfClosingSpace: true,
+  xmlWhitespaceSensitivity: 'ignore'
 };
